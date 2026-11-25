@@ -1,0 +1,63 @@
+==========================================================================================
+CLASS SCHEDULING USING GENETIC ALGORITHM (CO3061 - HOMEWORK 3)
+==========================================================================================
+Scale    : 60 courses | 480 sections | 960 sessions | 60 professors | 35 rooms
+Capacity : 1024/1050 available room-slots (93.75% utilization)
+
+--- ALGORITHM COMPARISON ---
+Mode            Fitness     TotalPen   Hard   SoftPen   BonusPen  Time(s)
+---------------------------------------------------------------------------
+baseline     0.00000002   41485175.5    393    4493.0  2180682.5    55.53
+improved     0.00000331     302501.0      3    2459.0       42.0    79.33
+proposed     0.00063633       1570.5      0    1515.0       55.5   113.35
+
+--- BEST SOLUTION (PROPOSED) CONSTRAINT VERIFICATION ---
+Hard Violations Total: 0
+  H1_room_capacity            : 0
+  H2_session_spacing          : 0
+  H3_professor_conflict       : 0
+  H4_professor_workload       : 0
+  H5_room_availability        : 0
+  H6_section_conflict         : 0
+  H7_room_conflict            : 0
+Soft Constraints:
+  S1_professor_idle_gap       : 51
+  S2_professor_day_scatter    : 3
+  S3_professor_shift_conflict : 135
+  S4_course_shift_conflict    : 167
+  S5_room_size_mismatch       : 75
+  Exact room-size matches     : 894/960 (93.12%)
+Bonus Constraints (Bonus 1 & 2):
+  B2_out_of_list_sections     : 0
+  B1a_profs_without_favorite  : 0
+  Profs with >=1 favorite     : 60/60
+  Favorite sections           : 443/480 (92.29%)
+
+--- SAMPLE PROFESSOR TIMETABLES (p01, p02, p03) ---
+
+Professor p01 | Sessions: 16 | DayGaps: 2 | MixedDays: 2 | FavSecs: 8/8 | Top3: [c54, c31, c39]
+Slot   Mon              Tue              Wed              Thu              Fri             
+T1     .                c31-s01@rm20*    .                c31-s01@rm14*    .               
+T2     .                .                .                c54-s06@rm33*    .               
+T3     .                .                .                c39-s01@rm12*    .               
+T4     c54-s08@rm20*    c54-s06@rm04*    c54-s08@rm24*    c39-s04@rm32*    .               
+T5     c39-s08@rm02*    c39-s04@rm26*    c39-s03@rm06*    c54-s07@rm01*    .               
+T6     c39-s01@rm02*    c54-s07@rm13*    .                c39-s08@rm19*    c39-s03@rm09*   
+
+Professor p02 | Sessions: 16 | DayGaps: 0 | MixedDays: 1 | FavSecs: 7/8 | Top3: [c23, c11, c52]
+Slot   Mon              Tue              Wed              Thu              Fri             
+T1     c11-s08@rm10*    c52-s05@rm06*    c11-s08@rm09*    .                c52-s03@rm26*   
+T2     c52-s07@rm01*    c11-s01@rm10*    c52-s02@rm03*    .                c23-s02@rm03*   
+T3     c52-s02@rm13*    c23-s02@rm12*    c52-s03@rm05*    .                c52-s05@rm29*   
+T4     .                c20-s02@rm29     .                c11-s01@rm08*    .               
+T5     .                .                .                c20-s02@rm05     .               
+T6     .                .                .                c52-s07@rm03*    .               
+
+Professor p03 | Sessions: 20 | DayGaps: 0 | MixedDays: 3 | FavSecs: 10/10 | Top3: [c30, c36, c06]
+Slot   Mon              Tue              Wed              Thu              Fri             
+T1     .                c06-s08@rm05*    c30-s07@rm26*    c06-s07@rm25*    c30-s06@rm04*   
+T2     .                c30-s06@rm17*    c36-s03@rm26*    c06-s08@rm07*    c30-s07@rm06*   
+T3     c06-s01@rm24*    c30-s02@rm25*    c06-s03@rm31*    c30-s02@rm15*    c06-s03@rm35*   
+T4     .                c06-s07@rm21*    .                c06-s01@rm17*    c36-s03@rm21*   
+T5     .                c36-s04@rm20*    .                c36-s06@rm22*    .               
+T6     .                c36-s06@rm27*    .                c36-s04@rm14*    .               

@@ -1,0 +1,103 @@
+{
+  "pop_size": [
+    {
+      "val": 20,
+      "fitness": 0.00061237,
+      "hard": 0,
+      "soft": 1596.0,
+      "time": 6.39
+    },
+    {
+      "val": 40,
+      "fitness": 0.00058241,
+      "hard": 0,
+      "soft": 1659.0,
+      "time": 14.8
+    },
+    {
+      "val": 80,
+      "fitness": 0.00063391,
+      "hard": 0,
+      "soft": 1521.0,
+      "time": 29.44
+    }
+  ],
+  "crossover_rate": [
+    {
+      "val": 0.65,
+      "fitness": 0.00062016,
+      "hard": 0,
+      "soft": 1556.0,
+      "time": 12.84
+    },
+    {
+      "val": 0.85,
+      "fitness": 0.00058241,
+      "hard": 0,
+      "soft": 1659.0,
+      "time": 12.98
+    },
+    {
+      "val": 0.95,
+      "fitness": 0.00057988,
+      "hard": 0,
+      "soft": 1668.0,
+      "time": 13.01
+    }
+  ],
+  "mutation_rate": [
+    {
+      "val": 0.005,
+      "fitness": 0.00065445,
+      "hard": 0,
+      "soft": 1473.0,
+      "time": 12.54
+    },
+    {
+      "val": 0.015,
+      "fitness": 0.00058241,
+      "hard": 0,
+      "soft": 1659.0,
+      "time": 12.93
+    },
+    {
+      "val": 0.04,
+      "fitness": 0.00058841,
+      "hard": 0,
+      "soft": 1643.0,
+      "time": 13.77
+    }
+  ],
+  "generations": [
+    {
+      "val": 0,
+      "fitness": 0.00042017,
+      "hard": 0,
+      "soft": 2322.0
+    },
+    {
+      "val": 50,
+      "fitness": 0.00055788,
+      "hard": 0,
+      "soft": 1736.0
+    },
+    {
+      "val": 100,
+      "fitness": 0.00058055,
+      "hard": 0,
+      "soft": 1666.0
+    },
+    {
+      "val": 150,
+      "fitness": 0.00061218,
+      "hard": 0,
+      "soft": 1577.0
+    },
+    {
+      "val": 200,
+      "fitness": 0.00063633,
+      "hard": 0,
+      "soft": 1515.0
+    }
+  ]
+}

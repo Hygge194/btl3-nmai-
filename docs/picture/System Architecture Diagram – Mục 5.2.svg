@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" width="920" height="620" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+    <marker id="arrow-dashed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="920" height="620" fill="#ffffff" rx="8"/>
+
+  <!-- Title -->
+  <text x="460" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">KIẾN TRÚC MODULE PHÂN LỚP (LAYERED MODULAR ARCHITECTURE)</text>
+
+  <!-- 1. Presentation Layer -->
+  <rect x="40" y="50" width="840" height="80" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+  <text x="58" y="73" font-size="13" font-weight="700" fill="#1e40af">Presentation Layer (Tầng giao diện)</text>
+  <rect x="120" y="84" width="280" height="36" rx="5" fill="#ffffff" stroke="#3b82f6" stroke-width="1.2"/>
+  <text x="260" y="106" text-anchor="middle" font-size="12" font-weight="600" fill="#1e293b">main.py (CLI Thực nghiệm đối chứng)</text>
+  <rect x="520" y="84" width="280" height="36" rx="5" fill="#ffffff" stroke="#3b82f6" stroke-width="1.2"/>
+  <text x="660" y="106" text-anchor="middle" font-size="12" font-weight="600" fill="#1e293b">app.py (Giao diện Web Streamlit)</text>
+
+  <!-- Arrows Presentation -> Application -->
+  <line x1="260" y1="130" x2="260" y2="163" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="660" y1="130" x2="660" y2="163" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- 2. Application Layer -->
+  <rect x="40" y="165" width="840" height="82" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+  <text x="58" y="188" font-size="13" font-weight="700" fill="#166534">Application Layer (Tầng ứng dụng – src/services/scheduler.py)</text>
+  <rect x="160" y="198" width="260" height="38" rx="5" fill="#ffffff" stroke="#22c55e" stroke-width="1.2"/>
+  <text x="290" y="221" text-anchor="middle" font-size="12" font-weight="600" fill="#1e293b">SchedulerService (Điều phối)</text>
+  <rect x="500" y="198" width="260" height="38" rx="5" fill="#ffffff" stroke="#22c55e" stroke-width="1.2"/>
+  <text x="630" y="221" text-anchor="middle" font-size="12" font-weight="600" fill="#1e293b">ExperimentBundle (Đóng gói KQ)</text>
+  <line x1="420" y1="217" x2="498" y2="217" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Arrows Application -> Data, Engine, Output -->
+  <line x1="170" y1="247" x2="170" y2="283" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="460" y1="247" x2="460" y2="283" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="750" y1="247" x2="750" y2="283" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- 3. Middle Row: Data Layer | Constraint & GA Engine | Output Module -->
+  <!-- Data Layer -->
+  <rect x="40" y="285" width="245" height="175" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+  <text x="162" y="308" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">Data Layer</text>
+  <rect x="58" y="320" width="209" height="34" rx="5" fill="#ffffff" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="162" y="341" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1e293b">data_generator.py</text>
+  <rect x="58" y="363" width="209" height="34" rx="5" fill="#ffffff" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="162" y="384" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1e293b">data_loader.py</text>
+  <rect x="58" y="406" width="209" height="40" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="1.1"/>
+  <text x="162" y="423" text-anchor="middle" font-size="11" font-weight="600" fill="#78350f">data/*.json</text>
+  <text x="162" y="438" text-anchor="middle" font-size="10" fill="#78350f">(courses, sections, profs, rooms)</text>
+
+  <!-- Constraint & GA Engine -->
+  <rect x="305" y="285" width="310" height="175" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+  <text x="460" y="308" text-anchor="middle" font-size="13" font-weight="700" fill="#991b1b">Constraint &amp; GA Engine</text>
+
+  <rect x="322" y="320" width="276" height="62" rx="5" fill="#ffffff" stroke="#ef4444" stroke-width="1.2"/>
+  <text x="460" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#991b1b">GA Engine (src/genetic/)</text>
+  <text x="460" y="355" text-anchor="middle" font-size="10.5" fill="#334155">engine.py, initialization.py, fitness.py</text>
+  <text x="460" y="370" text-anchor="middle" font-size="10.5" fill="#334155">selection, crossover, mutation, repair, pop</text>
+
+  <line x1="460" y1="382" x2="460" y2="399" stroke="#475569" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+  <rect x="322" y="401" width="276" height="46" rx="5" fill="#ffffff" stroke="#ef4444" stroke-width="1.2"/>
+  <text x="460" y="419" text-anchor="middle" font-size="12" font-weight="700" fill="#991b1b">Constraint Module (src/constraints/)</text>
+  <text x="460" y="436" text-anchor="middle" font-size="10.5" fill="#334155">hard (H1–H7), soft (S1–S5), bonus (B1–B2)</text>
+
+  <!-- Output Module -->
+  <rect x="635" y="285" width="245" height="175" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+  <text x="757" y="308" text-anchor="middle" font-size="13" font-weight="700" fill="#5b21b6">Output Module (src/utils/)</text>
+  <rect x="653" y="320" width="209" height="32" rx="5" fill="#ffffff" stroke="#8b5cf6" stroke-width="1.2"/>
+  <text x="757" y="340" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1e293b">statistics.py (Thống kê)</text>
+  <rect x="653" y="359" width="209" height="32" rx="5" fill="#ffffff" stroke="#8b5cf6" stroke-width="1.2"/>
+  <text x="757" y="379" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1e293b">exporter.py (CSV/JSON/HTML)</text>
+  <rect x="653" y="398" width="209" height="48" rx="5" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.1"/>
+  <text x="757" y="416" text-anchor="middle" font-size="11" font-weight="600" fill="#4c1d95">visualization.py → outputs/</text>
+  <text x="757" y="433" text-anchor="middle" font-size="10" fill="#4c1d95">(best_schedule, report, *.png)</text>
+
+  <!-- Arrows from Middle Row to Domain Layer -->
+  <line x1="162" y1="460" x2="162" y2="498" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow-dashed)"/>
+  <line x1="460" y1="460" x2="460" y2="498" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow-dashed)"/>
+  <line x1="757" y1="460" x2="757" y2="498" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow-dashed)"/>
+
+  <!-- 4. Domain Layer (Shared Foundation) -->
+  <rect x="40" y="500" width="840" height="92" rx="8" fill="#f8fafc" stroke="#475569" stroke-width="1.8"/>
+  <text x="58" y="523" font-size="13" font-weight="700" fill="#1e293b">Domain Layer (Tầng mô hình nghiệp vụ dùng chung – src/models/ &amp; config.py)</text>
+  <rect x="58" y="536" width="380" height="42" rx="5" fill="#ffffff" stroke="#64748b" stroke-width="1.2"/>
+  <text x="248" y="553" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0f172a">Đối tượng dữ liệu bài toán</text>
+  <text x="248" y="569" text-anchor="middle" font-size="11" fill="#334155">Course, Section, Professor, Room</text>
+
+  <rect x="462" y="536" width="400" height="42" rx="5" fill="#ffffff" stroke="#64748b" stroke-width="1.2"/>
+  <text x="662" y="553" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0f172a">Cấu trúc biểu diễn nghiệm &amp; Cấu hình</text>
+  <text x="662" y="569" text-anchor="middle" font-size="11" fill="#334155">Chromosome (480 Gene), Gene (2 Session), Session, config.py</text>
+</svg>

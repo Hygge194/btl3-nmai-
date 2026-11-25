@@ -1,0 +1,152 @@
+{
+  "best_mode": "proposed",
+  "problem_feasibility": {
+    "total_room_slots": 1050,
+    "available_room_slots": 1024,
+    "unavailable_room_slots": 26,
+    "required_sessions": 960,
+    "utilization_pct": 93.75,
+    "rooms_per_size": {
+      "0": 11,
+      "1": 11,
+      "2": 13
+    },
+    "sections_per_size": {
+      "0": 158,
+      "1": 174,
+      "2": 148
+    },
+    "available_slots_per_size": {
+      "0": 324,
+      "1": 319,
+      "2": 381
+    },
+    "required_sessions_per_size": {
+      "0": 316,
+      "1": 348,
+      "2": 296
+    },
+    "available_slots_per_day": [
+      204,
+      205,
+      205,
+      205,
+      205
+    ],
+    "available_morning_slots": 515,
+    "available_afternoon_slots": 509,
+    "min_eligible_profs_per_course": 5,
+    "min_favorite_profs_per_course": 2,
+    "total_prof_session_capacity": 1200
+  },
+  "weights": {
+    "hard_penalty": 100000.0,
+    "soft_weights": {
+      "idle_gap": 5.0,
+      "day_scatter": 3.0,
+      "prof_shift": 5.0,
+      "course_shift": 3.0,
+      "room_mismatch": 1.0
+    },
+    "bonus_weights": {
+      "not_in_list": 5000.0,
+      "no_favorite": 2000.0,
+      "non_favorite_section": 1.5
+    }
+  },
+  "algorithms": {
+    "baseline": {
+      "label": "Baseline GA (Random Init)",
+      "elapsed_seconds": 55.526,
+      "converged_feasible_gen": null,
+      "fitness": 2e-08,
+      "total_penalty": 41485175.5,
+      "hard_violations": 393,
+      "soft_penalty": 4493.0,
+      "bonus_penalty": 2180682.5,
+      "breakdown": {
+        "H1_room_capacity": 157,
+        "H2_session_spacing": 0,
+        "H3_professor_conflict": 43,
+        "H4_professor_workload": 0,
+        "H5_room_availability": 10,
+        "H6_section_conflict": 0,
+        "H7_room_conflict": 183,
+        "hard_total": 393,
+        "S1_professor_idle_gap": 342,
+        "S2_professor_day_scatter": 1,
+        "S3_professor_shift_conflict": 229,
+        "S4_course_shift_conflict": 384,
+        "S5_room_size_mismatch": 483,
+        "exact_size_matches": 434,
+        "B1a_profs_without_favorite": 40,
+        "B1b_non_favorite_sections": 455,
+        "B2_out_of_list_sections": 420,
+        "profs_with_favorite": 20,
+        "favorite_sections": 25
+      }
+    },
+    "improved": {
+      "label": "Improved GA (Greedy Init)",
+      "elapsed_seconds": 79.332,
+      "converged_feasible_gen": null,
+      "fitness": 3.31e-06,
+      "total_penalty": 302501.0,
+      "hard_violations": 3,
+      "soft_penalty": 2459.0,
+      "bonus_penalty": 42.0,
+      "breakdown": {
+        "H1_room_capacity": 0,
+        "H2_session_spacing": 0,
+        "H3_professor_conflict": 3,
+        "H4_professor_workload": 0,
+        "H5_room_availability": 0,
+        "H6_section_conflict": 0,
+        "H7_room_conflict": 0,
+        "hard_total": 3,
+        "S1_professor_idle_gap": 218,
+        "S2_professor_day_scatter": 5,
+        "S3_professor_shift_conflict": 192,
+        "S4_course_shift_conflict": 113,
+        "S5_room_size_mismatch": 55,
+        "exact_size_matches": 918,
+        "B1a_profs_without_favorite": 0,
+        "B1b_non_favorite_sections": 28,
+        "B2_out_of_list_sections": 0,
+        "profs_with_favorite": 60,
+        "favorite_sections": 452
+      }
+    },
+    "proposed": {
+      "label": "Proposed GA (Greedy + Repair + Elitism)",
+      "elapsed_seconds": 113.347,
+      "converged_feasible_gen": 0,
+      "fitness": 0.00063633,
+      "total_penalty": 1570.5,
+      "hard_violations": 0,
+      "soft_penalty": 1515.0,
+      "bonus_penalty": 55.5,
+      "breakdown": {
+        "H1_room_capacity": 0,
+        "H2_session_spacing": 0,
+        "H3_professor_conflict": 0,
+        "H4_professor_workload": 0,
+        "H5_room_availability": 0,
+        "H6_section_conflict": 0,
+        "H7_room_conflict": 0,
+        "hard_total": 0,
+        "S1_professor_idle_gap": 51,
+        "S2_professor_day_scatter": 3,
+        "S3_professor_shift_conflict": 135,
+        "S4_course_shift_conflict": 167,
+        "S5_room_size_mismatch": 75,
+        "exact_size_matches": 894,
+        "B1a_profs_without_favorite": 0,
+        "B1b_non_favorite_sections": 37,
+        "B2_out_of_list_sections": 0,
+        "profs_with_favorite": 60,
+        "favorite_sections": 443
+      }
+    }
+  }
+}

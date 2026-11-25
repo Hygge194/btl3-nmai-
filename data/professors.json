@@ -1,0 +1,1142 @@
+[
+  {
+    "id": 0,
+    "code": "p01",
+    "name": "Professor 01",
+    "eligible_courses": [
+      53,
+      30,
+      38,
+      13,
+      36,
+      55
+    ],
+    "favorite_courses": [
+      53,
+      30,
+      38
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 1,
+    "code": "p02",
+    "name": "Professor 02",
+    "eligible_courses": [
+      22,
+      10,
+      51,
+      19,
+      57,
+      43
+    ],
+    "favorite_courses": [
+      22,
+      10,
+      51
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 2,
+    "code": "p03",
+    "name": "Professor 03",
+    "eligible_courses": [
+      29,
+      35,
+      5,
+      46,
+      23,
+      0
+    ],
+    "favorite_courses": [
+      29,
+      35,
+      5
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 3,
+    "code": "p04",
+    "name": "Professor 04",
+    "eligible_courses": [
+      44,
+      34,
+      58,
+      31,
+      9,
+      55
+    ],
+    "favorite_courses": [
+      44,
+      34,
+      58
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 4,
+    "code": "p05",
+    "name": "Professor 05",
+    "eligible_courses": [
+      20,
+      13,
+      56,
+      10,
+      26,
+      50
+    ],
+    "favorite_courses": [
+      20,
+      13,
+      56
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 5,
+    "code": "p06",
+    "name": "Professor 06",
+    "eligible_courses": [
+      55,
+      51,
+      15,
+      49,
+      7,
+      12
+    ],
+    "favorite_courses": [
+      55,
+      51,
+      15
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 6,
+    "code": "p07",
+    "name": "Professor 07",
+    "eligible_courses": [
+      31,
+      29,
+      14,
+      22,
+      21,
+      7
+    ],
+    "favorite_courses": [
+      31,
+      29,
+      14
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 7,
+    "code": "p08",
+    "name": "Professor 08",
+    "eligible_courses": [
+      41,
+      8,
+      22,
+      23,
+      16,
+      21
+    ],
+    "favorite_courses": [
+      41,
+      8,
+      22
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 8,
+    "code": "p09",
+    "name": "Professor 09",
+    "eligible_courses": [
+      12,
+      31,
+      8,
+      1,
+      32,
+      47
+    ],
+    "favorite_courses": [
+      12,
+      31,
+      8
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 9,
+    "code": "p10",
+    "name": "Professor 10",
+    "eligible_courses": [
+      16,
+      4,
+      38,
+      48,
+      35,
+      27
+    ],
+    "favorite_courses": [
+      16,
+      4,
+      38
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 10,
+    "code": "p11",
+    "name": "Professor 11",
+    "eligible_courses": [
+      9,
+      6,
+      46,
+      17,
+      55,
+      33
+    ],
+    "favorite_courses": [
+      9,
+      6,
+      46
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 11,
+    "code": "p12",
+    "name": "Professor 12",
+    "eligible_courses": [
+      1,
+      54,
+      10,
+      14,
+      45,
+      34
+    ],
+    "favorite_courses": [
+      1,
+      54,
+      10
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 12,
+    "code": "p13",
+    "name": "Professor 13",
+    "eligible_courses": [
+      4,
+      28,
+      47,
+      43,
+      22,
+      1
+    ],
+    "favorite_courses": [
+      4,
+      28,
+      47
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 13,
+    "code": "p14",
+    "name": "Professor 14",
+    "eligible_courses": [
+      48,
+      3,
+      28,
+      6,
+      53,
+      20
+    ],
+    "favorite_courses": [
+      48,
+      3,
+      28
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 14,
+    "code": "p15",
+    "name": "Professor 15",
+    "eligible_courses": [
+      8,
+      53,
+      49,
+      21,
+      15,
+      52
+    ],
+    "favorite_courses": [
+      8,
+      53,
+      49
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 15,
+    "code": "p16",
+    "name": "Professor 16",
+    "eligible_courses": [
+      11,
+      39,
+      4,
+      59,
+      56,
+      49
+    ],
+    "favorite_courses": [
+      11,
+      39,
+      4
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 16,
+    "code": "p17",
+    "name": "Professor 17",
+    "eligible_courses": [
+      25,
+      56,
+      16,
+      52,
+      14,
+      38
+    ],
+    "favorite_courses": [
+      25,
+      56,
+      16
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 17,
+    "code": "p18",
+    "name": "Professor 18",
+    "eligible_courses": [
+      59,
+      27,
+      1,
+      13,
+      37,
+      6
+    ],
+    "favorite_courses": [
+      59,
+      27,
+      1
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 18,
+    "code": "p19",
+    "name": "Professor 19",
+    "eligible_courses": [
+      34,
+      1,
+      54,
+      51,
+      13,
+      46
+    ],
+    "favorite_courses": [
+      34,
+      1,
+      54
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 19,
+    "code": "p20",
+    "name": "Professor 20",
+    "eligible_courses": [
+      57,
+      45,
+      37,
+      34,
+      49,
+      44
+    ],
+    "favorite_courses": [
+      57,
+      45,
+      37
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 20,
+    "code": "p21",
+    "name": "Professor 21",
+    "eligible_courses": [
+      42,
+      32,
+      36,
+      25,
+      4,
+      22
+    ],
+    "favorite_courses": [
+      42,
+      32,
+      36
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 21,
+    "code": "p22",
+    "name": "Professor 22",
+    "eligible_courses": [
+      47,
+      22,
+      59,
+      39,
+      46,
+      28
+    ],
+    "favorite_courses": [
+      47,
+      22,
+      59
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 22,
+    "code": "p23",
+    "name": "Professor 23",
+    "eligible_courses": [
+      32,
+      46,
+      3,
+      58,
+      50,
+      9
+    ],
+    "favorite_courses": [
+      32,
+      46,
+      3
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 23,
+    "code": "p24",
+    "name": "Professor 24",
+    "eligible_courses": [
+      21,
+      59,
+      41,
+      40,
+      11,
+      31
+    ],
+    "favorite_courses": [
+      21,
+      59,
+      41
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 24,
+    "code": "p25",
+    "name": "Professor 25",
+    "eligible_courses": [
+      49,
+      58,
+      12,
+      0,
+      39,
+      18
+    ],
+    "favorite_courses": [
+      49,
+      58,
+      12
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 25,
+    "code": "p26",
+    "name": "Professor 26",
+    "eligible_courses": [
+      5,
+      14,
+      20,
+      36,
+      0,
+      42
+    ],
+    "favorite_courses": [
+      5,
+      14,
+      20
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 26,
+    "code": "p27",
+    "name": "Professor 27",
+    "eligible_courses": [
+      15,
+      18,
+      29,
+      27,
+      51,
+      5
+    ],
+    "favorite_courses": [
+      15,
+      18,
+      29
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 27,
+    "code": "p28",
+    "name": "Professor 28",
+    "eligible_courses": [
+      37,
+      2,
+      44,
+      32,
+      54,
+      3
+    ],
+    "favorite_courses": [
+      37,
+      2,
+      44
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 28,
+    "code": "p29",
+    "name": "Professor 29",
+    "eligible_courses": [
+      14,
+      55,
+      31,
+      18,
+      1,
+      35
+    ],
+    "favorite_courses": [
+      14,
+      55,
+      31
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 29,
+    "code": "p30",
+    "name": "Professor 30",
+    "eligible_courses": [
+      54,
+      38,
+      19,
+      9,
+      48,
+      25
+    ],
+    "favorite_courses": [
+      54,
+      38,
+      19
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 30,
+    "code": "p31",
+    "name": "Professor 31",
+    "eligible_courses": [
+      0,
+      50,
+      18,
+      28,
+      34,
+      48
+    ],
+    "favorite_courses": [
+      0,
+      50,
+      18
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 31,
+    "code": "p32",
+    "name": "Professor 32",
+    "eligible_courses": [
+      26,
+      0,
+      50,
+      33,
+      10,
+      57
+    ],
+    "favorite_courses": [
+      26,
+      0,
+      50
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 32,
+    "code": "p33",
+    "name": "Professor 33",
+    "eligible_courses": [
+      58,
+      23,
+      45,
+      41,
+      6,
+      2
+    ],
+    "favorite_courses": [
+      58,
+      23,
+      45
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 33,
+    "code": "p34",
+    "name": "Professor 34",
+    "eligible_courses": [
+      39,
+      40,
+      33,
+      50,
+      29,
+      30
+    ],
+    "favorite_courses": [
+      39,
+      40,
+      33
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 34,
+    "code": "p35",
+    "name": "Professor 35",
+    "eligible_courses": [
+      23,
+      26,
+      57,
+      4,
+      3,
+      54
+    ],
+    "favorite_courses": [
+      23,
+      26,
+      57
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 35,
+    "code": "p36",
+    "name": "Professor 36",
+    "eligible_courses": [
+      6,
+      33,
+      30,
+      53,
+      12,
+      17
+    ],
+    "favorite_courses": [
+      6,
+      33,
+      30
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 36,
+    "code": "p37",
+    "name": "Professor 37",
+    "eligible_courses": [
+      56,
+      42,
+      6,
+      45,
+      25,
+      58
+    ],
+    "favorite_courses": [
+      56,
+      42,
+      6
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 37,
+    "code": "p38",
+    "name": "Professor 38",
+    "eligible_courses": [
+      43,
+      11,
+      21,
+      24,
+      33,
+      53
+    ],
+    "favorite_courses": [
+      43,
+      11,
+      21
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 38,
+    "code": "p39",
+    "name": "Professor 39",
+    "eligible_courses": [
+      17,
+      47,
+      24,
+      56,
+      59,
+      26
+    ],
+    "favorite_courses": [
+      17,
+      47,
+      24
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 39,
+    "code": "p40",
+    "name": "Professor 40",
+    "eligible_courses": [
+      13,
+      57,
+      9,
+      37,
+      28,
+      24
+    ],
+    "favorite_courses": [
+      13,
+      57,
+      9
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 40,
+    "code": "p41",
+    "name": "Professor 41",
+    "eligible_courses": [
+      30,
+      15,
+      27,
+      47,
+      31,
+      11
+    ],
+    "favorite_courses": [
+      30,
+      15,
+      27
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 41,
+    "code": "p42",
+    "name": "Professor 42",
+    "eligible_courses": [
+      33,
+      16,
+      0,
+      7,
+      8,
+      51
+    ],
+    "favorite_courses": [
+      33,
+      16,
+      0
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 42,
+    "code": "p43",
+    "name": "Professor 43",
+    "eligible_courses": [
+      19,
+      37,
+      55,
+      15,
+      30,
+      14
+    ],
+    "favorite_courses": [
+      19,
+      37,
+      55
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 43,
+    "code": "p44",
+    "name": "Professor 44",
+    "eligible_courses": [
+      18,
+      21,
+      35,
+      57,
+      52,
+      32
+    ],
+    "favorite_courses": [
+      18,
+      21,
+      35
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 44,
+    "code": "p45",
+    "name": "Professor 45",
+    "eligible_courses": [
+      40,
+      7,
+      13,
+      38,
+      19,
+      29
+    ],
+    "favorite_courses": [
+      40,
+      7,
+      13
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 45,
+    "code": "p46",
+    "name": "Professor 46",
+    "eligible_courses": [
+      24,
+      43,
+      17,
+      30,
+      47,
+      36
+    ],
+    "favorite_courses": [
+      24,
+      43,
+      17
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 46,
+    "code": "p47",
+    "name": "Professor 47",
+    "eligible_courses": [
+      51,
+      41,
+      26,
+      11,
+      44,
+      15
+    ],
+    "favorite_courses": [
+      51,
+      41,
+      26
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 47,
+    "code": "p48",
+    "name": "Professor 48",
+    "eligible_courses": [
+      7,
+      44,
+      42,
+      12,
+      17,
+      37
+    ],
+    "favorite_courses": [
+      7,
+      44,
+      42
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 48,
+    "code": "p49",
+    "name": "Professor 49",
+    "eligible_courses": [
+      10,
+      49,
+      7,
+      5,
+      43,
+      41
+    ],
+    "favorite_courses": [
+      10,
+      49,
+      7
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 49,
+    "code": "p50",
+    "name": "Professor 50",
+    "eligible_courses": [
+      28,
+      12,
+      2,
+      16,
+      27,
+      40
+    ],
+    "favorite_courses": [
+      28,
+      12,
+      2
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 50,
+    "code": "p51",
+    "name": "Professor 51",
+    "eligible_courses": [
+      36,
+      25,
+      53,
+      20,
+      41,
+      19
+    ],
+    "favorite_courses": [
+      36,
+      25,
+      53
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 51,
+    "code": "p52",
+    "name": "Professor 52",
+    "eligible_courses": [
+      46,
+      36,
+      32,
+      8,
+      58,
+      39
+    ],
+    "favorite_courses": [
+      46,
+      36,
+      32
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 52,
+    "code": "p53",
+    "name": "Professor 53",
+    "eligible_courses": [
+      3,
+      9,
+      43,
+      2,
+      40,
+      59
+    ],
+    "favorite_courses": [
+      3,
+      9,
+      43
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 53,
+    "code": "p54",
+    "name": "Professor 54",
+    "eligible_courses": [
+      2,
+      5,
+      25,
+      26,
+      36,
+      10
+    ],
+    "favorite_courses": [
+      2,
+      5,
+      25
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 54,
+    "code": "p55",
+    "name": "Professor 55",
+    "eligible_courses": [
+      27,
+      52,
+      34,
+      54,
+      18,
+      8
+    ],
+    "favorite_courses": [
+      27,
+      52,
+      34
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 55,
+    "code": "p56",
+    "name": "Professor 56",
+    "eligible_courses": [
+      52,
+      19,
+      40,
+      29,
+      20,
+      4
+    ],
+    "favorite_courses": [
+      52,
+      19,
+      40
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 56,
+    "code": "p57",
+    "name": "Professor 57",
+    "eligible_courses": [
+      38,
+      48,
+      23,
+      3,
+      5,
+      13
+    ],
+    "favorite_courses": [
+      38,
+      48,
+      23
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 57,
+    "code": "p58",
+    "name": "Professor 58",
+    "eligible_courses": [
+      45,
+      17,
+      39,
+      44,
+      42,
+      23
+    ],
+    "favorite_courses": [
+      45,
+      17,
+      39
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 58,
+    "code": "p59",
+    "name": "Professor 59",
+    "eligible_courses": [
+      35,
+      20,
+      48,
+      42,
+      24,
+      16
+    ],
+    "favorite_courses": [
+      35,
+      20,
+      48
+    ],
+    "max_sessions": 20
+  },
+  {
+    "id": 59,
+    "code": "p60",
+    "name": "Professor 60",
+    "eligible_courses": [
+      50,
+      24,
+      52,
+      35,
+      38,
+      45
+    ],
+    "favorite_courses": [
+      50,
+      24,
+      52
+    ],
+    "max_sessions": 20
+  }
+]
